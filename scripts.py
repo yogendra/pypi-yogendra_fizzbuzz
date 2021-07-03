@@ -6,5 +6,5 @@ def test():
     `poetry run python -u -m pytest`
     """
     subprocess.run(
-        ['python', '-u', '-m', 'pytest']
+        ['python', '-u', '-m', 'pytest', '-v']
     )
