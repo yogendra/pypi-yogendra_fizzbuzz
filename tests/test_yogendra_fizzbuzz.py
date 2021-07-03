@@ -3,7 +3,7 @@ from yogendra_fizzbuzz import __version__,fizzbuzz, fizzbuzz_to
 
 
 def test_version():
-    assert __version__ == '0.3.0'
+    assert __version__ == '0.4.0'
 
 def test_fizzbuzz_fizz():
     assert fizzbuzz(3) == "Fizz"
