@@ -20,7 +20,7 @@ This module uses
 1. Use in your program. Following is an example in repl:
 
     ```bash
-    >>> from yogendra_fizzbuzz import fizzbuzz
+    >>> from yogendra_fizzbuzz import fizzbuzz_to
     >>> print(fizzbuzz_to(16))
     [ '1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz', '16']
     ```
