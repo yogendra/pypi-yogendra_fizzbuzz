@@ -3,7 +3,7 @@ from yogendra_fizzbuzz import __version__,fizzbuzz, fizzbuzz_to
 
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert __version__ == '0.2.0'
 
 def test_fizzbuzz_fizz():
     assert fizzbuzz(3) == "Fizz"
@@ -34,4 +34,4 @@ def test_fzzbuzz_number():
     assert fizzbuzz(16) == "16"
 
 def test_fizzbuzz_to():
-    assert fizzbuzz_to(16) == ['0', '1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz']
+    assert fizzbuzz_to(16) == ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz','16']

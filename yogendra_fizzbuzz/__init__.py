@@ -1,4 +1,4 @@
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 def fizzbuzz(n):
   result = str(n)
@@ -13,7 +13,7 @@ def fizzbuzz(n):
   return result
   
 def fizzbuzz_to(n):
-  return list(map(fizzbuzz, range(n)))
+  return list(map(fizzbuzz, range(1,n+1)))
 
 
 
