@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "yogendra_fizzbuzz"
-version = "0.2.0"
-description = ""
+version = "0.3.0"
+description = "Simple Fizz Buzz Game"
 authors = ["Yogendra Rampuria (Yogi) <yogendrarampuria@gmail.com>"]
 
 [tool.poetry.dependencies]
